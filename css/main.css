@@ -174,3 +174,54 @@ footer span {
 	color: #77a466;
 	font-size: 14px;
 }
+
+@media all and (min-width:768px) {
+    .bottom-section {
+		justify-content: space-between;
+		align-items: flex-start;
+        border-top: 1px solid #eee;
+
+	}
+
+	.section-one {
+        border-top: none;
+        flex-basis: 30%;
+    }
+    .section-two {
+        border-top: none;
+        flex-basis: 30%;
+		border-left: 1px solid #eee;
+        border-right: 1px solid #eee;
+        padding: 0 20px;
+    }
+    .section-three {
+        border-top: none;
+        flex-basis: 30%;
+    }
+ 
+}
+ 
+@media all and (min-width:1200px) {
+    header {
+        justify-content: space-between;
+    }
+
+    header h1 {
+        width: 30%;
+        padding: 0;
+        border-bottom: none;
+        text-align: left;
+    }
+
+    header nav {
+        width: 40%;
+    }
+
+    header nav ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+ 
+}
